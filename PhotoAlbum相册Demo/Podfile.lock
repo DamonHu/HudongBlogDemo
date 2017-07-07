@@ -1,0 +1,12 @@
+PODS:
+  - PhotoAlbum (0.5.0)
+
+DEPENDENCIES:
+  - PhotoAlbum (= 0.5.0)
+
+SPEC CHECKSUMS:
+  PhotoAlbum: e0c8051cd705f941ae485773a55a77cf1aaa4bdf
+
+PODFILE CHECKSUM: d794ae2bcdebace16db4a5c0ba138365641f094f
+
+COCOAPODS: 1.2.0.beta.3

@@ -1,0 +1,1 @@
+../../../PhotoAlbum/PhotoAlbum/Classes/Model/ZQAlbumModel.h
