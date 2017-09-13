@@ -10,6 +10,15 @@
 #import <Accelerate/Accelerate.h>
 
 @implementation ImgTool
+
+
+/**
+ 使用CoreImage进行高斯模糊
+
+ @param image 需要模糊的图片
+ @param blur 模糊的范围 可以1~99
+ @return 返回已经模糊过的图片
+ */
 +(UIImage *)coreBlurImage:(UIImage *)image withBlurNumber:(CGFloat)blur
 {
     CIContext *context = [CIContext contextWithOptions:nil];
@@ -25,6 +34,13 @@
     return blurImage;
 }
 
+/**
+ 使用vImage进行高斯模糊
+ 
+ @param image 需要模糊的图片
+ @param blur 模糊的范围 0~1
+ @return 返回已经模糊过的图片
+ */
 +(UIImage*)imageBlurImage:(UIImage *)image WithBlurNumber:(CGFloat)blur
 {
     //    NSInteger boxSize = (NSInteger)(10 * 5);
