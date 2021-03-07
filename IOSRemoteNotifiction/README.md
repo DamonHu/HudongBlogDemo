@@ -1,0 +1,19 @@
+# IOSRemoteNotifiction
+IOS本地通知和远程通知demo
+## 本地通知
+本地通知其实在之前的文章和网上就已经很详细的说了，主要是UILocalNotification的使用，本地通知主要应用在固定时间的通知事件，比如日历、活动提醒等。
+
+## 远程通知
+ios上面，苹果允许的通知就是远程通知，今天查了下几个网站，发现QQ，微信也是这样的，以QQ为例，当QQ在后台运行的时候，有人给你发消息的时候，腾讯服务器向苹果的远程推送服务器（APNS）发送通知，苹果推送服务器再把这个消息推送到你的手机，如果一直后台运行，那么就是这样推送。
+
+![image](http://www.hudongdong.com/content/uploadfile/201608/6e281472042674.png)
+
+当你打开QQ，开始在QQ界面内开始聊天等等，这时候推送就直接是腾讯软件之间的推送了
+
+该demo就是展示本地通知栏通知和远程通知如何使用
+
+参考文章《[IOS本地消息通知、远程通知和PHP测试消息](http://www.hudongdong.com/ios/348.html)》
+
+效果展示
+
+![image](http://www.hudongdong.com/content/uploadfile/201608/eace1472046173.png)
